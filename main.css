@@ -1,0 +1,27 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin:0;
+}
+.header_background{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+header{
+    color: white;
+}
+header ul{
+    list-style-type: none;
+}
+header ul li{
+    display: inline;
+    padding-left: 100px ;
+}
+.img_header_right{
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    float: right;
+}
