@@ -13,15 +13,79 @@ header{
     color: white;
 }
 header ul{
+    padding: 40px 0;
     list-style-type: none;
 }
 header ul li{
     display: inline;
-    padding-left: 100px ;
+}
+.li_titulo{
+    padding-left:100px;
+    padding-right: 200px;
+}
+.li_contenido{
+    padding:0 30px ;
+}
+.li_search{
+    padding-left: 100px;
+    padding-right: 20px;
+}
+.buscar{
+    background-color:rgba(187, 187, 187, 0.6);
+    width: 15%;
+    padding:5px 30px;
+    border-radius: 20px ;
+    border:none;    
+    color:white
+}
+::placeholder { 
+    color: white;
+    opacity: 1;
+  }
+.sign{
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+    padding: 5px 30px ;
+    background-color: transparent;
 }
 .img_header_right{
     width: 20%;
     position: absolute;
-    top: 10%;
-    float: right;
+    top: 20%;
+    right: -10%;
+    z-index: -1;
+}
+.header_contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.header_item{
+    width: 50%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+}
+.header_menu_boton{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.header_menu_boton button{
+    color: white;
+    padding: 5px 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: gray;
+}
+.header_item2{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_item2_contenido{
+    align-self: center;
 }
