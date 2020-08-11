@@ -95,15 +95,11 @@ header ul li{
 .header_item2_contenido{
     align-self: center;
 }
- /* main{
-    background-color: violet
-}  */
 .main1{
     display: flex;
 }
 .main1_izq{
     width: 65%;
-    /* background-color: burlywood; */
 }
 .main1_izq ul{
     padding-top: 40px;
@@ -164,4 +160,67 @@ header ul li{
 .main1_der_divimg{
     text-align: center;
     width: 50%;
+}
+.main2_div1{
+    width: 70%;
+    background-color: rgb(223, 221, 221);
+    margin: auto;
+    display: flex;
+    box-shadow: 0.1px 1px 5px rgb(145, 143, 143);
+    border-radius: 5px;
+    z-index: -2;
+}
+.main2_img{
+    width: 50%;
+    border-color: gray;
+    z-index: -1;
+}
+.main2_img_rotate{
+    width: 70px;
+    padding: 0 30px;
+    transform: rotate(90deg);
+}
+.main2_img_lastNext{
+    height: 20px;
+    transform: rotate(180dg);
+}
+.main2_div1_contenido{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+ .main2_div2{
+    background-color: white;
+    margin-top: -150px;
+    margin-left:32%;
+    width: 50%;
+    box-shadow: 0.1px 1px 5px rgb(145, 143, 143);
+    border-radius: 20px;
+    padding: 30px;
+    z-index: 1;
+}
+.main2_div2_table{
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.td_left{
+    text-align: end;
+}
+.td_borderBottom_gray td{
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.tr_center{
+    text-align: center;
+}
+.main2_div2_number{
+    font-size: 60px;
+}
+.main2_div2_table button{
+    border-radius: 40px;
+    padding: 5px 25px;
+    border: 0;
+    background-color: #2DE8B6;
+    color:white;
 }
