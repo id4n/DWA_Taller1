@@ -6,6 +6,7 @@
 }
 body{
     background-color: whitesmoke;
+    overflow-x: hidden;
 }
 .header_background{
     position: absolute;
@@ -144,4 +145,23 @@ header ul li{
 }
 .table_imgspace{
     padding: 10px;
+}
+.main1_der{
+    margin-top: 40px;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.main1_der div:nth-child(1){
+    font-size: 40px;
+    flex-basis: 100%;
+    text-align: center;
+}
+.main1_der img{
+    width: 80%;
+}
+.main1_der_divimg{
+    text-align: center;
+    width: 50%;
 }
